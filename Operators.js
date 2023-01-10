@@ -59,16 +59,18 @@ console.log('5' !== 5); //true
 let isPrecipitating = true;
 let temperature = -5; //celsius
 
+//and example
 if (isPrecipitating && temperature <= 0) {
     console.log("It is snowing");
 } else if (isPrecipitating && temperature > 0) {
     console.log("It is raining");
 }
 
-
+//or example
 let day = 'Tuesday';
 if (day === 'Saturday' || day === 'Sunday'){
     console.log("It is the weekend!");
 } else {
     console.log("It is a weekday");
 }
+
