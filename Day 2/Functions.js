@@ -69,8 +69,8 @@ let w = (param1,param2) => {
 
 console.log(w(3,4));
 
-function calculateRectangleArea(length = 0,width = 0){
+function calculateRectangleArea(length = 0,width = 0){//=0 setting a default parameter
     return length * width;
 }
-console.log(calculateRectangleArea(4,5));
+console.log(calculateRectangleArea(4,5)); //4*5=20
 console.log(calculateRectangleArea(undefined, 10));//length = 0, width = 10

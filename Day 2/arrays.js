@@ -28,6 +28,12 @@ console.log(numbers.length);//6
  4. shift(): removes value at beginning of array and returns removed value
 
  5. splice(startIndex, deleteCount): removes the specified number of values from an array starting at a specified index and returns an array of the removed values
+ 6. slice(start,end): returns a copy of a portion of the array (start index to end index)
+ 7. concat(array1,array2,...): returns new array containing values of arrays passed in as arguments
+ 8. join(separator): returns a string that represents the array values, separated by the specified separator
+    ->colors.join(', ') "red, green, blue" in a single string
+9.indexOf(item,start): returns the index of the first occurrence of the specified item starting from the specified index    returns -1 if item not found
+10. lastIndexOf(item, start): returns the index of the last occurrence of the specified item in the array starting from the specified index      returns -1 if item not found
 
 */
 

@@ -65,6 +65,8 @@ switch (z) {
         console.log('Invalid day');
 }
 
+//etc.
+
 //Loops
 
 //Loops are used in programming to execute a block of code multiple times
@@ -96,4 +98,4 @@ let b = 0;
 do {
     console.log(b);
     b++;
-} while (b > 7);
+} while (b > 7);//runs once even though b is not greater than 7
