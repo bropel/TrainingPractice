@@ -5,6 +5,18 @@ const myObj = {} //stored in memory
 
 //you can add properties to an objecct at any time, not restricted to a defined blueprint
 
+//Objects are important because they allo wyou to model real-world entities as a collection of peroperties
+
+//they provide a way to organize and structure your code; by grouping related data and behavior together in a single object, you can make your code more readable and usable
+
+//they allow you to create reusable and modular code. we can define a blueprint for an object (function constructor or class) and then create multiple instance of that object, each with their own unique values
+
+//they enable encapsulation. we can use objects to encapsulate data and behavior, and hide the details of how the object works from the 'outside world'. this makes it easier to change the implementation of an object without affecting the rest of the code
+
+//they are used in many JS frameworks, libraries, and APIs. Understanding objects is important to utilize these tools effectively
+
+//JS uses prototypal inheritance; objects can inherit properties and methods from other objects which allows us to create complex relationships and model more advanced concepts like inheritance and polymorphism
+
 myObj.name = 'Bryce';
 
 myObj['age'] = 27;//property is added for the first time
@@ -35,7 +47,7 @@ function Person(firstName, lastName, age) {
     this.age = age;
     //this.greet = function(){
       //  console.log(`Hello, my name is ${this.firstName} ${this.lastName}.`);
-        //this greet functions is a waste of memory because each person object has a copy of this function
+        //this greet function is a waste of memory (inefficient) because each person object has a copy of this function
     }
 
     //this keyword refers to the object we are creating
