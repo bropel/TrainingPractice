@@ -1,0 +1,36 @@
+1. Login/register
+
+- will have to have a table on a database with names and passwords
+    -login will check against this database 
+
+-registration will check for existing user
+
+2. submit ticket
+
+    -default pending message
+
+    -diagrams included for help with mapping/architecting
+
+3. Ticketing system feature
+
+    -once a ticket is approved/denied, that status cannot change
+    -managers will see a list of pending reimbursements, then the ticket will be removed once processed
+
+4. view previous tickets feature
+
+    -filter tickets by approved/pending/denied/all
+
+
+Work on features 1 by 1; develop, test, debug
+    -make sure each step works before starting another
+
+
+Have you met the Mimimum Viable Product (MVP)?
+
+Postman will be used to send the login credentials
+    -employees can only send own tickets
+    -managers can see all
+
+
+
+stretch goal info
