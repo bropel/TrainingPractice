@@ -1,0 +1,13 @@
+start
+1. load saved file
+-iterate through saved file
+-append to array
+
+2. ask for input
+-get name
+-get quantity
+-get price
+
+3. ask to quit
+-if not, loop back to step 2
+-quit: save file and exit
