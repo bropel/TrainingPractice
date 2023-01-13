@@ -1,0 +1,11 @@
+{
+  "name": "day-5",
+  "version": "1.0.0",
+  "description": "This is a demo for a http grocery shopping tracker app",
+  "main": "grocery_httpImplementation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bryce O",
+  "license": "ISC"
+}
